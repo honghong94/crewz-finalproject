@@ -1,8 +1,10 @@
 package com.project.crewz.common.db.form;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
+@AllArgsConstructor
 public class ReplyForm {
     private Long reviewNo;
     private String memberId;

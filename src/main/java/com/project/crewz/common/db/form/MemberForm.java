@@ -1,10 +1,12 @@
 package com.project.crewz.common.db.form;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.sql.Date;
 
 @Getter
+@AllArgsConstructor
 public class MemberForm {
     private String id;
     private String pwd;
