@@ -2,7 +2,6 @@ package com.project.crewz.common.db.form;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Arrays;
