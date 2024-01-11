@@ -5,19 +5,19 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class Category {
-    private Long no;
-    private String name;
-    private String photo;
-    private Long total;
+public class Local {
+    public Long no;
+    public String name;
+    public String ename;
+    public Long acc;
 
     @Override
     public String toString() {
-        return "Category{" +
+        return "Local{" +
                 "no=" + no +
                 ", name='" + name + '\'' +
-                ", photo='" + photo + '\'' +
-                ", total=" + total +
+                ", ename='" + ename + '\'' +
+                ", acc=" + acc +
                 '}';
     }
 }

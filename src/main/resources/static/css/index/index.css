@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#index-header {
+    margin-bottom: 30px;
+}
+.card {
+    background-color: unset;
+    border: 0;
+}
+
+.cat-col {
+    max-height: 300px;
+    text-align: center;
+}
+
+.card-img-top {
+    width: 50%;
+    height: 100px;
+    margin: auto;
+}
+
+#index-content {
+    border: 10px solid #fa4a4b;
+    border-radius: 20px;
+    background-color: unset;
+    /*min-height: 200px;*/
+    /*max-height: 200px;*/
+    padding-top: 20px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#index-content::-webkit-scrollbar {
+    display: none;
+}
+
+#moim-add {
+    width: 70px;
+    height: 50px;
+}
+
+#moim-add:hover {
+    cursor: pointer;
+}
+
+.loc-btn-left, .loc-btn-right,
+.loc-btn-left:hover , .loc-btn-right:hover,
+.loc-btn-left:active , .loc-btn-right:active,
+.loc-btn-left:focus , .loc-btn-right:focus {
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+#index-local {
+    border: 10px solid #fa4a4b;
+    border-radius: 20px;
+    background-color: unset;
+    min-height: 200px;
+    max-height: 200px;
+    padding-top: 20px;
+}
